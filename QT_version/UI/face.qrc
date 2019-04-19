@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>face/face.png</file>
+        <file>face/1.png</file>
+        <file>face/2.png</file>
+        <file>face/3.png</file>
+        <file>face/4.png</file>
+        <file>face/5.png</file>
+        <file>face/6.png</file>
+        <file>face/7.png</file>
+        <file>face/8.png</file>
+        <file>face/9.png</file>
+        <file>face/10.png</file>
+        <file>face/11.png</file>
+        <file>face/12.png</file>
+        <file>face/13.png</file>
+        <file>face/14.png</file>
+        <file>face/15.png</file>
+        <file>face/16.png</file>
+        <file>face/17.png</file>
+        <file>face/18.png</file>
+        <file>face/19.png</file>
+        <file>face/20.png</file>
+        <file>face/21.png</file>
+        <file>face/22.png</file>
+        <file>face/23.png</file>
+        <file>face/24.png</file>
+    </qresource>
+</RCC>

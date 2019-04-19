@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="register_widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1024</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="register_bg">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1024</width>
+       <height>600</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-image: url(:/images/13857113_164644350163_2.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="register_menu">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1024</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-image: url(:/small_unit/black Header30.png);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="login_bg">
+     <property name="geometry">
+      <rect>
+       <x>304</x>
+       <y>190</y>
+       <width>721</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/*background-color: rgba(255, 255, 255, 0);
+border-image: url(:/small_unit/black Header60.png);*/
+background-color: rgba(67, 67, 67, 158);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="copyright">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>550</y>
+       <width>441</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgba(255, 255, 255, 150);
+font: 10pt &quot;Century Gothic&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Copyright ® 2016 Journal Management System.All Rights Reserved</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="home_icon">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>8</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-image: url(:/icons/Home.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="about_icon">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>8</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-image: url(:/icons/List.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="home">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>10</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgba(255, 255, 255, 150);
+font: 10pt &quot;Century Gothic&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>home</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="about">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>10</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgba(255, 255, 255, 150);
+font: 10pt &quot;Century Gothic&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>about</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="home_bt">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>100</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton 
+{
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 0px; 
+}
+QPushButton:hover 
+{ 
+	background-color: rgba(255, 255, 255, 30);
+}
+QPushButton:pressed
+{
+	background-color: rgba(255, 255, 255, 60);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="about_bt">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>0</y>
+       <width>100</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton 
+{
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 0px; 
+}
+QPushButton:hover 
+{ 
+	background-color: rgba(255, 255, 255, 30);
+}
+QPushButton:pressed
+{
+	background-color: rgba(255, 255, 255, 60);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="name_icon">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>220</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-image: url(:/icons/User Profile.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="key_icon">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>280</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-image: url(:/icons/Grid.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="name_Edit">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>220</y>
+       <width>290</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit
+{
+	background-color: rgba(200, 200, 200, 192);
+	font: 75 16pt &quot;Century Gothic&quot;;
+	color :rgba(255, 255, 255, 192)
+}
+</string>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="key_Edit">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>280</y>
+       <width>290</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit
+{
+	background-color: rgba(200, 200, 200, 192);
+	font: 75 16pt &quot;Century Gothic&quot;;
+	color :rgba(255, 255, 255, 192)
+}
+</string>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="login_bt">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>240</y>
+       <width>130</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Century Gothic</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton 
+{
+	color:rgba(255, 255, 255, 220);
+	background-color:rgba(208, 119, 37, 255);
+	border-radius: 0px; 
+}
+QPushButton:hover 
+{ 
+	background-color: rgba(208, 119, 37, 200);
+}
+QPushButton:pressed
+{
+	background-color: rgba(255, 255, 255, 100);
+}</string>
+     </property>
+     <property name="text">
+      <string>log in</string>
+     </property>
+     <property name="default">
+      <bool>true</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="book_icon">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>170</y>
+       <width>209</width>
+       <height>217</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+border-image: url(:/small_unit/book.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="system_name">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>410</y>
+       <width>531</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgba(255, 255, 255, 180);
+font: 75 32pt &quot;Tempus Sans ITC&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Journal Management System</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="exit_bt">
+     <property name="geometry">
+      <rect>
+       <x>995</x>
+       <y>8</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton 
+{
+    border-image: url(:/icons/Cancel.png);
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 9px; 
+}
+QPushButton:hover 
+{ 
+    border-image: url(:/icons/Cancel_hover.png);
+}
+QPushButton:pressed
+{
+    border-image: url(:/icons/Canel_pressed.png);
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-20</y>
+       <width>1041</width>
+       <height>621</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTabWidget::pane{
+	/*border:none;
+	border-image: url(:/small_unit/black Header60.png);*/
+	border-top:0px solid white;
+	background:  transparent;
+}
+QTabWidget::tab-bar{
+    alignment:left;
+	height:0px;
+}</string>
+     </property>
+     <property name="currentIndex">
+      <number>6</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Tab 1</string>
+      </attribute>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1024</width>
+         <height>600</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/about/1.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>270</y>
+         <width>50</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton 
+{
+border-image: url(:/icons/right20.png);
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 9px; 
+}
+QPushButton:hover 
+{ 
+    border-image: url(:/icons/right60.png);
+}
+QPushButton:pressed
+{
+    border-image: url(:/icons/right30.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Tab 2</string>
+      </attribute>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1024</width>
+         <height>600</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/about/2.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>270</y>
+         <width>50</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton 
+{
+border-image: url(:/icons/right20.png);
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 9px; 
+}
+QPushButton:hover 
+{ 
+    border-image: url(:/icons/right60.png);
+}
+QPushButton:pressed
+{
+    border-image: url(:/icons/right30.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>50</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton 
+{
+border-image: url(:/icons/left10.png);
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 9px; 
+}
+QPushButton:hover 
+{ 
+    border-image: url(:/icons/left60.png);
+}
+QPushButton:pressed
+{
+    border-image: url(:/icons/left30.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>页</string>
+      </attribute>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1024</width>
+         <height>600</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/about/3.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>50</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton 
+{
+border-image: url(:/icons/left10.png);
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 9px; 
+}
+QPushButton:hover 
+{ 
+    border-image: url(:/icons/left60.png);
+}
+QPushButton:pressed
+{
+    border-image: url(:/icons/left30.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>270</y>
+         <width>50</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton 
+{
+border-image: url(:/icons/right20.png);
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 9px; 
+}
+QPushButton:hover 
+{ 
+    border-image: url(:/icons/right60.png);
+}
+QPushButton:pressed
+{
+    border-image: url(:/icons/right30.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>页</string>
+      </attribute>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1024</width>
+         <height>600</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/about/4.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>270</y>
+         <width>50</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton 
+{
+border-image: url(:/icons/right20.png);
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 9px; 
+}
+QPushButton:hover 
+{ 
+    border-image: url(:/icons/right60.png);
+}
+QPushButton:pressed
+{
+    border-image: url(:/icons/right30.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>50</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton 
+{
+border-image: url(:/icons/left10.png);
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 9px; 
+}
+QPushButton:hover 
+{ 
+    border-image: url(:/icons/left60.png);
+}
+QPushButton:pressed
+{
+    border-image: url(:/icons/left30.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>页</string>
+      </attribute>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1024</width>
+         <height>600</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/about/5.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_17">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>270</y>
+         <width>50</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton 
+{
+border-image: url(:/icons/right20.png);
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 9px; 
+}
+QPushButton:hover 
+{ 
+    border-image: url(:/icons/right60.png);
+}
+QPushButton:pressed
+{
+    border-image: url(:/icons/right30.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_18">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>50</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton 
+{
+border-image: url(:/icons/left10.png);
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 9px; 
+}
+QPushButton:hover 
+{ 
+    border-image: url(:/icons/left60.png);
+}
+QPushButton:pressed
+{
+    border-image: url(:/icons/left30.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_6">
+      <attribute name="title">
+       <string>页</string>
+      </attribute>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1024</width>
+         <height>600</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/about/6.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_19">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>270</y>
+         <width>50</width>
+         <height>69</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton 
+{
+border-image: url(:/icons/right20.png);
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 9px; 
+}
+QPushButton:hover 
+{ 
+    border-image: url(:/icons/right60.png);
+}
+QPushButton:pressed
+{
+    border-image: url(:/icons/right30.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_20">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>50</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton 
+{
+border-image: url(:/icons/left10.png);
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 9px; 
+}
+QPushButton:hover 
+{ 
+    border-image: url(:/icons/left60.png);
+}
+QPushButton:pressed
+{
+    border-image: url(:/icons/left30.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_7">
+      <attribute name="title">
+       <string>页</string>
+      </attribute>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1024</width>
+         <height>600</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/about/7.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_22">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>50</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton 
+{
+border-image: url(:/icons/left10.png);
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 9px; 
+}
+QPushButton:hover 
+{ 
+    border-image: url(:/icons/left60.png);
+}
+QPushButton:pressed
+{
+    border-image: url(:/icons/left30.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <zorder>register_bg</zorder>
+    <zorder>login_bg</zorder>
+    <zorder>copyright</zorder>
+    <zorder>name_icon</zorder>
+    <zorder>key_icon</zorder>
+    <zorder>name_Edit</zorder>
+    <zorder>key_Edit</zorder>
+    <zorder>login_bt</zorder>
+    <zorder>book_icon</zorder>
+    <zorder>system_name</zorder>
+    <zorder>tabWidget</zorder>
+    <zorder>register_menu</zorder>
+    <zorder>home_icon</zorder>
+    <zorder>about</zorder>
+    <zorder>about_bt</zorder>
+    <zorder>exit_bt</zorder>
+    <zorder>about_icon</zorder>
+    <zorder>home</zorder>
+    <zorder>home_bt</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

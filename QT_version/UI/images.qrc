@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/Blurred Background (25).jpg</file>
+        <file>images/Blurred Background (11).jpg</file>
+        <file>images/8.png</file>
+        <file>images/Blurred Background (27).jpg</file>
+        <file>images/Blurred Background (26).jpg</file>
+        <file>images/5.png</file>
+        <file>images/bg2.jpg</file>
+        <file>images/Blurred Background (1).jpg</file>
+        <file>images/Blurred Background (28).jpg</file>
+        <file>images/bg1.jpg</file>
+        <file>images/1.png</file>
+        <file>images/Blurred Background (14).jpg</file>
+        <file>images/Blurred Background (6).jpg</file>
+        <file>images/13857113_164644350163_2.png</file>
+        <file>images/0c83800a19d8bc3ef07c3840808ba61ea9d345c1.jpg</file>
+        <file>images/weatherback.png</file>
+        <file>images/Content.png</file>
+        <file>images/a.png</file>
+        <file>images/China.png</file>
+        <file>images/p1.png</file>
+        <file>images/p2.png</file>
+        <file>images/nocover.png</file>
+    </qresource>
+</RCC>

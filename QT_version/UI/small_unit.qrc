@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>small_unit/grey.png</file>
+        <file>small_unit/orange.png</file>
+        <file>small_unit/black Header30.png</file>
+        <file>small_unit/black Header60.png</file>
+        <file>small_unit/book.png</file>
+        <file>small_unit/black Header.png</file>
+        <file>small_unit/black Header70.png</file>
+        <file>small_unit/blue.png</file>
+        <file>small_unit/black.png</file>
+        <file>small_unit/red.png</file>
+        <file>small_unit/green.png</file>
+        <file>small_unit/black Header10.png</file>
+        <file>small_unit/Arrow.png</file>
+        <file>small_unit/black Header20.png</file>
+        <file>small_unit/black Header25.png</file>
+        <file>small_unit/add-line_vertical.png</file>
+        <file>small_unit/sub-line_vertical.png</file>
+        <file>small_unit/down.png</file>
+        <file>small_unit/unchecked.png</file>
+        <file>small_unit/checked.png</file>
+        <file>small_unit/black Header40.png</file>
+        <file>small_unit/black Header50.png</file>
+        <file>icons/Next.png</file>
+        <file>icons/Previous.png</file>
+    </qresource>
+</RCC>

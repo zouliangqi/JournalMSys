@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/Cancel.png</file>
+        <file>icons/Home.png</file>
+        <file>icons/List.png</file>
+        <file>icons/Grid.png</file>
+        <file>icons/User Profile.png</file>
+        <file>icons/Search.png</file>
+        <file>icons/Bookmark (alt).png</file>
+        <file>icons/Bookmark.png</file>
+        <file>icons/Like.png</file>
+        <file>icons/Cancel_hover.png</file>
+        <file>icons/Canel_pressed.png</file>
+        <file>icons/Setting.png</file>
+        <file>icons/Location Pin.png</file>
+        <file>icons/Repeat.png</file>
+        <file>icons/New post.png</file>
+        <file>icons/Mail.png</file>
+        <file>icons/Next2.png</file>
+        <file>icons/Next3.png</file>
+        <file>icons/Previous2.png</file>
+        <file>icons/Previous3.png</file>
+        <file>icons/Power.png</file>
+        <file>icons/Power2.png</file>
+        <file>icons/Power3.png</file>
+        <file>icons/Home2.png</file>
+        <file>icons/Home3.png</file>
+        <file>icons/Trash.png</file>
+        <file>icons/Books Shelf.png</file>
+        <file>icons/love.png</file>
+        <file>icons/love2.png</file>
+        <file>icons/love3.png</file>
+        <file>icons/dislike.png</file>
+        <file>icons/dislike2.png</file>
+        <file>icons/dislike3.png</file>
+        <file>icons/fresh.png</file>
+        <file>icons/loc.png</file>
+        <file>icons/Shuffle.png</file>
+        <file>icons/left10.png</file>
+        <file>icons/left30.png</file>
+        <file>icons/left40.png</file>
+        <file>icons/left50.png</file>
+        <file>icons/left60.png</file>
+        <file>icons/left70.png</file>
+        <file>icons/left80.png</file>
+        <file>icons/right20.png</file>
+        <file>icons/right30.png</file>
+        <file>icons/right40.png</file>
+        <file>icons/right50.png</file>
+        <file>icons/right60.png</file>
+        <file>icons/right70.png</file>
+        <file>icons/right80.png</file>
+    </qresource>
+</RCC>
